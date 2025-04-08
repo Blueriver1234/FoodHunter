@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FoodHunter</title>
+    <link rel="stylesheet" href="./Css/contact.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500;600;700&family=Dosis:wght@200&family=Open+Sans:wght@300&family=Roboto&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="web-wrapper">
+        <nav>
+            <div class="container">
+                <div class="logo">
+                    <a href="./home.html"><img src="./Images/Home/Logo.png" alt=""></a>
+                </div>
+                <div class="menu">
+                    <ul>
+                        <li><a href="./home.html">Home</a></li>
+                        <li><a href="./detail.html">Dishes</a></li>
+                        <li><a href="./detail.html">Recipes</a></li>
+                        <li><a href="./detail.html">My Blog</a></li>
+                        <li><a href="./contact.html" target="_blank">Contact</a></li>
+                        <li><a href="./login.html">Sign up/login</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <div class="main">
+            <div class="container">
+                <div class="aboutus">
+                    <div class="member">
+                        <h1>About Me</h1>
+                        <h3>Name: FoodHunter</h3>
+                        <h3>Email: blueriver@gmail.com</h3>
+                        <h3>Num: 0867747786</h3>
+                    </div>
+                </div>
+                <div class="contact">
+                    <div class="member">
+                        <h1>Contact Me</h1>
+                        <form>
+                            <div class="member-item">
+                                <Label for="fullname">Full Name</Label> <br>
+                                <input type="text" id="fullname" placeholder="Enter Your Name">
+                            </div>
+                            <div class="member-item">
+                                <Label for="email">Email</Label> <br>
+                                <input type="text" id="email" placeholder="Enter Your Email">
+                            </div>
+                            <div class="member-item">
+                                <Label for="phonenumber">Phonenumber</Label> <br>
+                                <input type="text" id="phonenumber" placeholder="Enter Your Phonenumber">
+                            </div>
+                            <div class="member-item">
+                                <Label for="message">Message</Label>
+                                <input type="text" id="message" placeholder="Your Message Here...">
+                            </div>
+                            <button type="submit" id="button" onclick="myFuntion()">Submit</button>
+                        </form>
+                </div>
+            </div>
+        </div>
+        <footer>
+            <h1>---Thanks for visitting my website---</h1>
+        </footer>
+        <script>
+            function myFuntion() {
+                alert("Thanks for contacting me!")
+            }
+        </script>
+    </div>
+</body>
+</html>

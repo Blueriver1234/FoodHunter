@@ -1,0 +1,96 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+.web-wrapper {
+    max-width: 2000px;
+    height: 100vh;
+    position: relative;
+}
+nav {
+    max-height: 10%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: #FFEECC;
+    z-index: 100;
+}
+nav .container {
+    max-width: 1200px;
+    margin: 15px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav .container .logo img {
+    max-width: 200px;
+}
+nav .container .menu ul{
+    display: inline-block;
+}
+nav .container .menu ul li{
+    display: inline-block;
+    margin: 0 30px;
+}
+nav .container .menu ul li a{
+    font-size: 1.8rem;
+    color: black;
+    font-family: "Dosis", "Open Sans", "Roboto" ;
+    font-weight: 500;
+}
+nav .container .menu ul li a:hover {
+    color: #40F8FF;
+}
+.main{
+    margin-top: 90px;
+    background-color: #F1EFEF;
+    padding: 260px;
+}
+.main .container{
+    max-width: 500px;
+    margin: 0 auto;
+    display: flex;
+    padding: 50px 0;
+    border-radius: 5px;
+    background-color: #a9d6dde7;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.main .container .aboutus, .contact{
+    margin: 0 20px 0;
+}
+.main .container .member h1{
+    padding: 0 0 10px;
+}
+.main .container .aboutus  h3{
+    padding: 0 0 5px;
+}
+.main .container .contact .member form .member-item{
+    padding: 0 0 5px;
+}
+#message {
+    height: 40px;
+}
+#button {
+    width: 80px;
+    height: 30px;
+    margin: 10px 0 0;
+}
+footer {
+    background: #fdf9f3;
+    text-align: center;
+    position: absolute;
+    padding: 10px 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 100;
+}
+footer h1{
+    padding: 10px 0;
+    font-family: "Dancing Script", "Open Sans", "Roboto" ;
+    font-size: 3rem;
+}

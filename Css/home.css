@@ -1,0 +1,183 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+.main{
+    max-width: 2000px;
+    height: 100vh;
+    position: relative;
+}
+nav {
+    max-height: 10%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: #FFEECC;
+    z-index: 100;
+}
+nav .container {
+    max-width: 1200px;
+    margin: 15px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.container .logo img {
+    max-width: 200px;
+}
+.container .menu ul{
+    display: inline-block;
+}
+.container .menu ul li{
+    display: inline-block;
+    margin: 0 30px;
+}
+.container .menu ul li a{
+    font-size: 1.8rem;
+    color: black;
+    font-family: "Dosis", "Open Sans", "Roboto" ;
+    font-weight: 500;
+}
+.container .menu ul li a:hover {
+    color: #40F8FF;
+}
+.banner{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    max-width: 1900px;
+    height: 90%;
+    z-index: 1;
+}
+.overlay {
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.3);
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 9;
+  }
+.welcome{
+    padding-top: 300px;
+    margin: 0 auto;
+    text-align: center;
+    position: absolute;
+    z-index: 100;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.welcome h1{
+    font-size: 7rem;
+    font-family: "Dancing Script", "Open Sans", "Roboto" ;
+    color: #fff;
+}
+.category {
+    background: #fdf9f3;
+    opacity: 1;
+    padding: 100px 0;
+}
+.category .heading {
+    text-align: center;
+    margin: 5px 0 20px;
+    color: #0E2954;
+    font: 1em sans-serif;
+}
+.demo-photo{
+    max-width: 1360px;
+    margin: 0 auto;
+    display: flex;
+}
+.photo{
+    margin: 20px;
+    position: relative;
+}
+.photo a img{
+    width: 300px;
+    height: 300px;
+}
+.score {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    background-color: #C70039;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+}
+.new {
+    background: #ffe9cb;
+    text-align: center;
+}
+.new .heading {
+    padding: 50px 0 10px;
+}
+.new .heading h1 {
+    font-size: 2.5rem;
+    color: #BB2525;
+}
+.new .heading h2 {
+    font-size: 2rem;
+} 
+.new .container {
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+}
+.new .recipes {
+    margin: 0 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+.new .recipes .member {
+    display: flex;
+    justify-content: center;
+}
+.new .recipes .member2{
+    padding: 10px 0;
+}
+.new .recipes img{
+    width: 360px;
+    height: 360px;
+}
+.new .recipes h3{
+    font-size: 1.5rem;
+}
+.new .recipes p{
+    max-width: 300px;
+    font-size: 1.5rem;
+}
+footer {
+    background: #fdf9f3;
+    text-align: center;
+}
+footer h1{
+    padding: 60px 0 0;
+    font-family: "Dancing Script", "Open Sans", "Roboto" ;
+    font-size: 3rem;
+}
+footer a {
+    padding: 20px 0;
+    font-family: "Dancing Script", "Open Sans", "Roboto" ;
+    font-size: 2.5rem;
+    color: #000;
+}
+footer h6 {
+    font-size: 1.5rem;
+    font-family: "Dosis", "Open Sans", "Roboto" ;
+}
+
+
+
+
+

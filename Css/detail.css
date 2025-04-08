@@ -1,0 +1,101 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+.web-wrapper{
+    background-color: #fdf9f3;
+}
+.main{
+    max-width: 2000px;
+}
+nav {
+    max-height: 10%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: #FFEECC;
+}
+nav .container {
+    max-width: 1200px;
+    margin: 15px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.container .logo img {
+    max-width: 200px;
+}
+.container .menu ul{
+    display: inline-block;
+}
+.container .menu ul li{
+    display: inline-block;
+    margin: 0 30px;
+}
+.container .menu ul li a{
+    font-size: 1.8rem;
+    color: black;
+    font-family: "Dosis", "Open Sans", "Roboto" ;
+    font-weight: 500;
+}
+.container .menu ul li a:hover {
+    color: #40F8FF;
+}
+.banner{
+    margin: 90px auto 0;  
+    max-width: 1900px;
+    height: 850px;
+}
+.content{
+    margin: 0 auto;
+    max-width: 1100px;
+    font-size: 1.5rem;
+    font-family: "Lora";
+    background-color: #FFEECC;
+}
+.information{
+    padding: 0 50px 20px;
+}
+.welcome{
+    margin: 0 auto;
+    padding: 35px 0 30px;
+    max-width: max-content;
+}
+.member{
+    margin: 50px 0 0;
+}
+.photo{
+    padding: 20px 0;
+}
+.member img{
+    width: 600px;
+}
+footer {
+    background: #fdf9f3;
+    text-align: center;
+}
+footer h1{
+    padding: 60px 0 0;
+    font-family: "Dancing Script", "Open Sans", "Roboto" ;
+    font-size: 3rem;
+}
+footer a {
+    padding: 20px 0;
+    font-family: "Dancing Script", "Open Sans", "Roboto" ;
+    font-size: 2.5rem;
+    color: #000;
+}
+footer h6 {
+    font-size: 1.5rem;
+    font-family: "Dosis", "Open Sans", "Roboto" ;
+}
+
+
+
+
+
+
